@@ -1,10 +1,7 @@
-FROM fluent/fluentd:v1.3.2-debian-onbuild-1.0
+FROM fluent/fluentd:v1.3-debian-onbuild
 
 LABEL maintainer="George Sherler <wuzeilmt@gmail.com>"
 USER root
-
-# skip runtime bundler installation
-ENV FLUENTD_DISABLE_BUNDLER_INJECTION 1
 
 RUN buildDeps="sudo make gcc g++ libc-dev ruby-dev" \
    && apt-get update \
