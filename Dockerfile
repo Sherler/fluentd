@@ -1,6 +1,6 @@
 FROM fluent/fluentd:v1.3.2-debian
 
-LABEL maintainer="Eduardo Silva <eduardo@treasure-data.com>"
+LABEL maintainer="George Sherler <wuzeilmt@gmail.com>"
 USER root
 WORKDIR /home/fluent
 ENV PATH /fluentd/vendor/bundle/ruby/2.3.0/bin:$PATH
