@@ -15,7 +15,5 @@ RUN buildDeps="sudo make gcc g++ libc-dev ruby-dev" \
    && rm -rf /var/lib/apt/lists/* \
            /home/fluent/.gem/ruby/2.3.0/cache/*.gem
 
-COPY ./conf/fluent.conf /fluentd/etc/
-
 ENV FLUENTD_OPT=""
 ENV FLUENTD_CONF="fluent.conf"
