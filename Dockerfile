@@ -1,4 +1,4 @@
-FROM fluent/fluentd:v1.3.2-debian-onbuild-1
+FROM fluent/fluentd:v1.3.2-debian-onbuild-1.0
 
 LABEL maintainer="George Sherler <wuzeilmt@gmail.com>"
 USER root
