@@ -1,0 +1,29 @@
+2019 - 03 - 10 T07: 35: 29 + 00: 00 kubernetes.var.log.containers.qun - search - 865 fc579b8 - 9 xxkl_universal_universal - qun - search - 7044471 cc7187e00f437acfb9e22a469f6e13b87ac8e9d8f3b5178fa8e6aad62.log 
+{
+    "log": "2019-03-10 07:35:29,999 INFO [12:139954673608448:qun_server.py:1906] uuid=5, [1552203330.0-0.34658672365] succ, type=zhinan, cost=2.21ms\n",
+    "stream": "stderr",
+    "docker": {
+        "container_id": "7044471cc7187e00f437acfb9e22a469f6e13b87ac8e9d8f3b5178fa8e6aad62"
+    },
+    "kubernetes": {
+        "container_name": "universal-qun-search",
+        "namespace_name": "universal",
+        "pod_name": "qun-search-865fc579b8-9xxkl",
+        "container_image": "rsync.registry.alps.gd.ted/universal/qun-search:0057fbd0d81ff86be05a385f28ab6b2ea24bdeb0",
+        "container_image_id": "docker-pullable://rsync.registry.alps.gd.ted/universal/qun-search@sha256:af7f148ee5e2b972d8f7d84092d88cb7f64ba467103ebdf16c641e61aa312c44",
+        "pod_id": "247cd373-4306-11e9-bde8-aaaaaa6080d8",
+        "labels": {
+            "app": "qun-search",
+            "ns": "universal",
+            "pod-template-hash": "865fc579b8",
+            "stage": "production",
+            "version": "0057fbd0d81ff86be05a385f28ab6b2ea24bdeb0"
+        },
+        "host": "alps-worker-134-35-52",
+        "master_url": "https://172.24.0.1:443/api",
+        "namespace_id": "d75f29e4-3dab-11e9-920f-aaaaaa130a6f",
+        "namespace_labels": {
+            "istio-injection": "enabled"
+        }
+    }
+}
